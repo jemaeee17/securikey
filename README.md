@@ -64,4 +64,13 @@ FEATURES
   - Receive access notifications
 
 - INSTALLATION
-  * git clone
+  * git clone https://github.com/jemaeee17/securikey.git
+  * cd securikey
+  * npm install
+  * npm start
+
+  Configure Firebase credentials and environment variables before running the application
+
+- AUTHOR
+  * Jemae
+  * Solo project built independently, covering mobile development, backend deployment, cloud integration, real-time systems, and embedded IoT development.
