@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+SECURIKEY - RFID SMART DOOR LOCK & REAL - TIME MONITORING SYSTEM
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Securikey is a solo-built RFID smart door lock and security monitoring system developed using React Native, Firebase, ESP32, and a deployed backend server for real-time communication.
+The system combines IoT hardware, mobile development, and cloud-based services to provide secure door access, authentication, real-time monitoring, notifications, and role-based access management.
+Built entirely independently, this project demonstrates full-stack mobile, backend, and embedded systems development.
 
-## Get started
+FEATURES
+- RFID DOOR ACCESS CONTROL
+  * RFID-based authentication system
+  * ESP32-controlled smart door locking mechanism
+  * Authorized faculty access validation
+  * Secure entry verification
+    
+- REACT NATIVE MOBILE APPLICATION
+  * User authentication and login
+  * Role-based access (Admin & Faculty)
+  * Security monitoring dashboard
+  * Real-time access log tracking
+  * Log history with timestamps
+  * Live notifications for access events
 
-1. Install dependencies
+- BACKEND AND REAL-TIME COMMUNICATION
+  * Backend server deployed on Render
+  * Real-time synchronization between hardware and and mobile application
+  * Live event logging and data updates
 
-   ```bash
-   npm install
-   ```
+- SECURITY FEATURES
+  * Firebase Authentication
+  * Protected user sessions
+  * Secure role-based permissions
+  * Controlled access monitoring
 
-2. Start the app
+- TECH STACK
+* Mobile Development
+  - React Native
+* Backend & Cloud Services
+  - Firebase Authentication
+  - Firebase Database/ Firestore
+  - Render (Server deployment)
+* Hardware / IOT
+  - Arduino ESP32
+  - RFID Module
+  - Smart Door Lock Integration
 
-   ```bash
-   npx expo start
-   ```
+- SYSTEM WORKFLOW
+  * Users scans RFID Card
+  * ESP32 process authentication request
+  * Backend validates access credentials
+  * Door access is granted or denied
+  * Event data is stored and synchronized
+  * Mobile app receives a real-time log updates
+  * Notifications are sent to authorized users
 
-In the output, you'll find options to open the app in a
+- USER ROLES
+* Admin
+  - Monitor all access activity
+  - View complete logs and timestamps
+  - Receive security notifications
+  - Access monitoring dashboard
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Faculty
+  - Authenticate for authorize entry
+  - View relevant access records
+  - Receive access notifications
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- INSTALLATION
+  * git clone
